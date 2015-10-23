@@ -1,0 +1,52 @@
+.deco{
+    background-color: #666666;
+    height: 10px;
+}
+
+.tool{
+    height: 70px;
+    border: 1px solid #FFAA00;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.view{
+	border: 1px solid #FFAA00;
+	height: 20px;
+}
+
+body{
+    padding: 60px;
+}
+
+.map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: #F5F5F5;
+    color: #36A0FF;
+    height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.add{
+    font-size: 18px;
+}
+
+.imgart{
+    width: 210px;
+    height: 110px;
+}
+.divider{
+    border-left: 1px solid #cccccc;
+    padding: 8px;
+}

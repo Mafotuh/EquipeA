@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+	.circle {
+	    position:absolute;
+	    background-color:red;
+	    width:200px;
+	    height:200px;
+	    -moz-border-radius:100px;
+	    -webkit-border-radius:100px;
+	    border-radius:100px;
+	}
+
+	.half-circle {
+	    position:absolute;
+	    background-color:red;
+	    width:100px;
+	    height:200px;
+	    -moz-border-radius:100px 0 0 100px;
+	    -webkit-border-radius:100px 0 0 100px;
+	    border-radius:100px 0 0 100px;
+	}
+
+		.pie {
+	    position:absolute;
+	    width:200px;
+	    height:200px;
+	    clip:rect(0px,100px,200px,0px);
+	    -moz-border-radius:100px;
+	    -webkit-border-radius:100px;
+	    border-radius:100px;
+	}
+
+	.hold {
+	    clip:rect(0px,200px,200px,100px);
+	}
+
+	#piece1 {
+	}
+
+	#piece1 .pie {
+	   color:red;
+	   -moz-transform:rotate(120deg);
+	   -webkit-transform:rotate(120deg);
+	   -o-transform:rotate(120deg);
+	   transform:rotate(120deg);
+	}
+
+	#piece2 {
+	  -moz-transform:rotate(120deg);
+	   -webkit-transform:rotate(120deg);
+	   -o-transform:rotate(120deg);
+	   transform:rotate(120deg);
+	}
+
+	#piece2 .pie {
+	   color:green;
+	   -moz-transform:rotate(120deg);
+	   -webkit-transform:rotate(120deg);
+	   -o-transform:rotate(120deg);
+	   transform:rotate(120deg);
+	}
+
+	#piece3 {
+	  -moz-transform:rotate(240deg);
+	   -webkit-transform:rotate(240deg);
+	   -o-transform:rotate(240deg);
+	   transform:rotate(120deg);
+	}
+
+	#piece3 .pie {
+	   color:blue;
+	   -moz-transform:rotate(120deg);
+	   -webkit-transform:rotate(120deg);
+	   -o-transform:rotate(120deg);
+	   transform:rotate(120deg);
+	}
+
+	.hold.gt50 {
+	    clip:rect(auto, auto, auto, auto);
+	}
+
+	.pie.fill {
+	    -moz-transform:rotate(180deg) !important;
+	    -webkit-transform:rotate(180deg) !important;
+	    transform:rotate(180deg) !important;
+	}
+
+	</style>
+</head>
+<body>
+
+<div class="circle hold">
+    <div class="pie"></div>
+</div>
+<div id="piece3" class="hold">
+    <div class="pie"></div>
+</div>
+<div id="piece3" class="hold">
+    <div class="pie"></div>
+</div>
+
+</body>
+</html>

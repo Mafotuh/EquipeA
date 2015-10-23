@@ -1,0 +1,22 @@
+SELECT 
+  Propriéitaire_JeuxVideo.IDJeuxVideo AS IDJeuxVideo,  
+  Propriéitaire_JeuxVideo.IDPropriéitaire AS IDPropriéitaire,  
+  Propriéitaire.Nom_Propri AS Nom_Propri,  
+  Propriéitaire.Prenom_prop AS Prenom_prop,  
+  Propriéitaire.Tel AS Tel,  
+  JeuxVideo.Console AS Console,  
+  JeuxVideo.Prix AS Prix,  
+  JeuxVideo.NbrJoueur AS NbrJoueur,  
+  JeuxVideo.NomJeut AS NomJeut,  
+  JeuxVideo.Comentaire AS Comentaire
+FROM 
+  JeuxVideo,  
+  Propriéitaire_JeuxVideo,  
+  Propriéitaire
+WHERE 
+    Propriéitaire_JeuxVideo.IDJeuxVideo  =  JeuxVideo.IDJeuxVideo
+  AND  Propriéitaire_JeuxVideo.IDPropriéitaire  =  Propriéitaire.IDPropriéitaire
+  AND
+  (
+    Propriéitaire_JeuxVideo.IDPropriéitaire = {Param1}
+  )

@@ -1,0 +1,17 @@
+INFO DATA BASE :
+==========================================
+Base des données : equipa
+Tables :
+	actualite
+	adherant 
+	admin
+	config
+	contact
+	evenement
+	media
+	user
+
+Table Indexé :
+	Actualité : (colones => titre, contenu) - Nom de l'index : actu
+	adherant : (colones => nom, prenom) - Nom de l'index : adher
+	evenement : (colones => titre, contenu) - Nom de l'index : event

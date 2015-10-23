@@ -1,0 +1,202 @@
+/* Custom styling for the Bootstrap website. 
+These styles do not ship with Bootstrap. 
+*/
+footer {
+	text-align: center;
+	color: #999;
+	border-top: 1px solid #ccc;
+	padding: 2em 0em;
+	margin: 3em 0;
+}
+
+.deco{
+    background-color: #666666;
+    height: 10px;
+}
+
+.tool{
+    height: 70px;
+    border: 1px solid #FFAA00;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.view{
+	border: 1px solid #FFAA00;
+	height: 20px;
+}
+
+.body{
+    padding: 100px;
+}
+
+.body2{
+    padding: 60px;
+}
+
+.map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: #F5F5F5;
+    color: #36A0FF;
+    height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.add{
+    font-size: 18px;
+}
+
+.imgart{
+    width: 210px;
+    height: 100%;
+}
+.divider{
+    border-left: 1px solid #cccccc;
+    padding: 8px;
+}
+
+.lab {
+    border-radius: 2em;
+}
+
+.police{
+    font-family:fantasy;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+}
+
+/*.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink.focus,
+.btn-pink:active,
+.btn-pink.active,
+.open > .dropdown-toggle.btn-pink {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}*/
+
+.btn-viole {
+  color: #fff;
+  background-color: #a943bd;
+  border-color: #873696;
+}
+
+/*.btn-viole:hover,
+.btn-viole:focus,
+.btn-viole.focus,
+.btn-viole:active,
+.btn-viole.active,
+.open > .dropdown-toggle.btn-viole {
+  color: #ff69b4;
+  background-color: #a943bd;
+  border-color: #873696;
+}
+*/
+
+
+.dtc{
+font-size: 10px;
+}
+
+.titre_a{
+  color: #3399FF;
+  font-family: Arial;
+}
+
+.contenu_a{
+  color: #666666;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.badge_nonlu {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #3399FF;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #3399FF;
+  border-radius: 10px;
+}
+
+.badge_lu {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #777;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #777;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.all_img{
+  position: relative;
+  display: inline-block;
+  max-width: 100px;
+  height: auto;
+}
+
+.wrap{
+  overflow-y:auto;
+  height: 450px;
+}
+
+.wrap_art{
+  overflow-y:auto;
+  height: 535px;
+}
+
+.graph-sz{
+    width: 180px;
+    height: 150px;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    margin: 0 1em 4em 0;
+}
+
+.editor {
+  overflow:scroll; 
+  max-height: 170px;
+  min-height: 170px;
+}
+
+.first{
+    width: 900px;
+    height: 300px;
+    background-color: lightsteelblue;
+}
+
+.second{
+    width: 100px;
+    height: 30px;
+    background-color: #5d87a5;
+    margin: 1px 1px 1px 1px;
+
+}
